@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive City Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🌍 Interactive City Map</h1>
+
+    <div class="buttons">
+        <button onclick="showLocation('office')">🏢 Offices</button>
+        <button onclick="showLocation('countryside')">🌾 Countryside</button>
+        <button onclick="showLocation('playground')">🎠 Playground</button>
+        <button onclick="showLocation('house')">🏠 House</button>
+        <button onclick="showLocation('industry')">🏭 Industries</button>
+    </div>
+
+    <div class="card">
+        <img id="locationImage" src="" alt="">
+        <h2 id="locationTitle">Select a Location</h2>
+        <p id="locationDesc">Click a button above to see details.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
